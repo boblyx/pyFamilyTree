@@ -1,0 +1,12 @@
+ <character id="kings_of_numenor">
+    <name>Kings of Numenor</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="elros"/>
+        <relation type="descendants" id="elendil"/>
+    </relations>
+</character>

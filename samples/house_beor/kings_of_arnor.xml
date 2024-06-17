@@ -1,0 +1,13 @@
+ <character id="kings_of_arnor">
+    <name>Kings of Arnor</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="isildur"/>
+        <relation type="spouse" id="kings_of_gondor"/>
+        <relation type="descendants" id="chieftains_of_dunedain"/>
+    </relations>
+</character>

@@ -1,0 +1,14 @@
+ <character id="luthien">
+    <name>Luthien</name>
+    <sex>f</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="melian" id="elu_thingol"/>
+        <relation type="mother" with="elu_thingol" id="melian"/>
+        <relation type="spouse" id="beren_erchamion"/>
+        <relation type="child" id="dior"/>
+    </relations>
+</character>

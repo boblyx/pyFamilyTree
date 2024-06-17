@@ -1,0 +1,13 @@
+ <character id="idril">
+    <name>Idril</name>
+    <sex>f</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="elenwe" id="turgon"/>
+        <relation type="mother" with="turgon" id="elenwe"/>
+        <relation type="child" with="tuor" id="earendil"/>
+    </relations>
+</character>

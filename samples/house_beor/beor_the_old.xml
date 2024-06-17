@@ -1,0 +1,12 @@
+ <character id="beor_the_old">
+    <name>Beor</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix>the Old</suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="descendants" id="baran"/>
+        <relation type="descendants" id="belen"/>
+    </relations>
+</character>

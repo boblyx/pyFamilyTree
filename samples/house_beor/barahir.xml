@@ -1,0 +1,13 @@
+ <character id="barahir">
+    <name>Barahir</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="bregor"/>
+        <relation type="spouse" id="emeldir"/>
+        <relation type="child" id="beren_erchamion"/>
+    </relations>
+</character>

@@ -1,0 +1,13 @@
+ <character id="baran">
+    <name>Baran</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="beor_the_old"/>
+        <relation type="descendants" id="boron"/>
+        <relation type="descendants" id="baranor"/>
+    </relations>
+</character>

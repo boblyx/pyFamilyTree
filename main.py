@@ -3,7 +3,7 @@ main.py
 :author: Bob Lee
 """
 import os
-import sys
+#import sys
 from graphviz import Graph
 from uuid import uuid4
 from pprint import pprint
@@ -11,6 +11,9 @@ from time import time
 import xml.etree.ElementTree as et
 
 eg_folder="./samples/elden_ring"
+#eg_folder="./samples/house_beor"
+OUT_FORMAT="svg" # "pdf" "png"
+
 DEFAULT_OUT="./out"
 
 class RelGraph:
@@ -36,7 +39,7 @@ class RelGraph:
         if suffix == None:
             node["text"] = "%s" % (character["name"])
         else:
-            node["text"] = "%s, %s" % (character["name"], character["suffix"])
+            node["text"] = "%s\n%s" % (character["name"], character["suffix"])
 
         if(sex == "m"): node["color"] = "blue"
         elif(sex == "f"): node["color"] = "red"
@@ -54,7 +57,7 @@ class RelGraph:
         else:
             dot.node(node["id"], color=node["color"], label="<<table cellspacing=\"0\" \
                      border=\"0\" cellborder=\"1\"><tr><td><img src=\"%s\"/></td></tr> \
-                     <tr><td>%s</td></tr></table>>" % (node["image"], node["text"])) 
+                     <tr><td>%s</td></tr></table>>" % (node["image"], node["text"]), headport="n") 
         return node["id"]
 
 class FamilyTreeGraph(RelGraph):
@@ -64,8 +67,19 @@ class FamilyTreeGraph(RelGraph):
         self.dot = Graph(comment="pyFamilyTree Graph", graph_attr = {"splines": "ortho", \
                 "labelloc": "b"}, node_attr={"shape": "box"}) 
         pass
+
+    def resolveSpouses(self, character, node):
+        """
+        TODO
+        """
+        for r in character["relations"]:
+            if not r["type"] == "spouse": continue
+        pass
     
     def resolveDescendants(self, character, node):
+        """
+        TODO
+        """
         pass
 
     def resolveAncestors(self, character, completed_unions, edges):
@@ -75,6 +89,25 @@ class FamilyTreeGraph(RelGraph):
         unions = set()
         ancestors = {"mothers":[], "fathers": [], "ancestor": []}
         for r in character["relations"]:
+            """
+            if(r["type"] == "spouse"):
+                if r["id"] in characters:
+                    spouse_node = self.gNode(characters[r["id"]])
+                    union = []
+                    if character["sex"] == "m":
+                        union = [character["id"], r["id"]]
+                    else:
+                        union= [r["id"], character["id"]]
+                    spouse_union = "%s-x-%s" % (union[0], union[1])
+                    ug = Graph()
+                    ug.attr(rank="same")
+                    ug.node(spouse_union, shape="diamond", width="0.1", height="0.1", label="")
+                    ug.edge(union[0], spouse_union)
+                    ug.edge(spouse_union, union[1])
+                    self.dot.subgraph(ug)
+                    pass
+                pass
+            """
             if(r["type"] == "father"):
                 ancestors["fathers"].append(r["id"])
                 if r["with"] == None: continue
@@ -135,7 +168,7 @@ class FamilyTreeGraph(RelGraph):
 
         return {"unions": unions, "ancestors": ancestors}
 
-    def gDot(self):
+    def gDot(self, file_format="pdf"):
         count = 0
         completed_unions = set()
         edges = set()
@@ -144,6 +177,8 @@ class FamilyTreeGraph(RelGraph):
             self.addNode(self.dot, cnode)
             ancestors = self.resolveAncestors(c, completed_unions, edges)
             #self.resolveDescendants(c, node)
+        print(self.dot_path)
+        self.dot.format = file_format
         self.dot.render(filename = self.dot_path)
         return
 
@@ -207,5 +242,5 @@ if __name__ == "__main__":
     # First create all characters in a family tree dict
     characters = makeCharacters(eg_folder)
     family_tree = FamilyTreeGraph(characters)
-    family_tree.gDot()
+    family_tree.gDot(OUT_FORMAT)
     pass

@@ -1,0 +1,14 @@
+ <character id="aragorn_ii_elessar">
+    <name>Aragorn II Elessar</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="spouse" id="arwen"/>
+        <relation type="father" with="kings_of_gondor" id="kings_of_arnor"/>
+        <relation type="mother" with="kings_of_arnor" id="kings_of_gondor"/>
+        <relation type="descendants" id="eldarion"/>
+    </relations>
+</character>

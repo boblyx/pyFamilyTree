@@ -1,0 +1,16 @@
+ <character id="hurin">
+    <name>Hurin</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" id="galador"/>
+        <relation type="mother" id="hareth"/>
+        <relation type="spouse" id="morwen"/>
+        <relation type="child" id="turin"/>
+        <relation type="child" id="urwen"/>
+        <relation type="child" id="nienor"/>
+    </relations>
+</character>

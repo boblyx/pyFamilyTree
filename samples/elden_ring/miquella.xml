@@ -1,0 +1,12 @@
+ <character id="miquella">
+    <name>Miquella</name>
+    <sex>m</sex>
+    <suffix>the Kind</suffix>
+    <titles>
+        <title>Lord of the Haligtree</title>
+    </titles>
+    <relations>
+        <relation type="father" with="marika" id="radagon"/>
+        <relation type="mother" with="radagon" id="marika"/>
+    </relations>
+</character>

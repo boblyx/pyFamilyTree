@@ -1,11 +1,11 @@
 <character id="radagon">
     <name>Radagon</name>
     <sex>m</sex>
-    <suffix>Of the Golden Order</suffix>
+    <suffix>of the Golden Order</suffix>
     <titles>
         <title>Second Elden Lord</title>
+        <title>Queen Consort</title>
     </titles>
-    <alter_ego id="marika"/>
     <relations>
         <relation type="child" with="rennala" id="radahn" order="0"/>
         <relation type="child" with="rennala" id="ranni" order="1"/>

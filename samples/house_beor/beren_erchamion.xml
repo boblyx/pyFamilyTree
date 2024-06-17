@@ -1,0 +1,14 @@
+ <character id="beren_erchamion">
+    <name>Beren Erchamion</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="emeldir" id="barahir"/>
+        <relation type="mother" with="barahir" id="emeldir"/>
+        <relation type="spouse" id="luthien"/>
+        <relation type="child" id="dior"/>
+    </relations>
+</character>

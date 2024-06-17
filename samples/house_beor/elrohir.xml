@@ -1,0 +1,12 @@
+ <character id="elrohir">
+    <name>Elrohir</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="celebrian" id="elrond"/>
+        <relation type="mother" with="elrond" id="celebrian"/>
+    </relations>
+</character>

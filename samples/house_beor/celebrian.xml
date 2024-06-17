@@ -1,0 +1,16 @@
+ <character id="celebrian">
+    <name>Celebrian</name>
+    <sex>f</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="spouse" id="elrond"/>
+        <relation type="father" with="galadriel" id="celeborn"/>
+        <relation type="mother" with="celeborn" id="galadriel"/>
+        <relation type="child" id="arwen"/>
+        <relation type="child" id="elladan"/>
+        <relation type="child" id="elrohir"/>
+    </relations>
+</character>

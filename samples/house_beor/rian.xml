@@ -1,0 +1,13 @@
+ <character id="rian">
+    <name>Rian</name>
+    <sex>f</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="belegund"/>
+        <relation type="spouse" id="huor"/>
+        <relation type="descendants" id="tuor"/>
+    </relations>
+</character>

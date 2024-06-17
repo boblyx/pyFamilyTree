@@ -1,0 +1,11 @@
+ <character id="bereg">
+    <name>Bereg</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="baranor"/>
+    </relations>
+</character>

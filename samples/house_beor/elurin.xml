@@ -1,0 +1,12 @@
+ <character id="elurin">
+    <name>Elurin</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="nimloth" id="dior"/>
+        <relation type="mother" with="dior" id="nimloth"/>
+    </relations>
+</character>

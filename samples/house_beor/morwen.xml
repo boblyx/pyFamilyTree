@@ -1,0 +1,15 @@
+ <character id="morwen">
+    <name>Morwen</name>
+    <sex>f</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="baragund"/>
+        <relation type="spouse" id="hurin"/>
+        <relation type="child" id="turin"/>
+        <relation type="child" id="urwen"/>
+        <relation type="child" id="nienor"/>
+    </relations>
+</character>

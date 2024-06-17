@@ -1,0 +1,12 @@
+ <character id="beldir">
+    <name>Beldir</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="belen"/>
+        <relation type="descendants" id="belemir"/>
+    </relations>
+</character>

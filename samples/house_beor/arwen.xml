@@ -1,0 +1,14 @@
+ <character id="arwen">
+    <name>Arwen</name>
+    <sex>f</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="celebrian" id="elrond"/>
+        <relation type="mother" with="elrond" id="celebrian"/>
+        <relation type="spouse" id="aragorn_ii_elessar"/>
+        <relation type="child" id="eldarion"/>
+    </relations>
+</character>

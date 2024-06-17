@@ -2,11 +2,11 @@
     <name>Godfrey</name>
     <sex>m</sex>
     <prefix></prefix>
-    <suffix></suffix>
+    <suffix>First Elden Lord</suffix>
     <titles>
         <title>First Elden Lord</title>
+        <title>Queen Consort</title>
     </titles>
-    <alter_ego id="hoarah_loux"/>
     <relations>
         <relation type="regent" id="serosh"/>
         <relation type="child" with="marika" id="godwyn" order="0"/>

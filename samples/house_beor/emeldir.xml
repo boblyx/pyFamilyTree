@@ -1,0 +1,13 @@
+ <character id="emeldir">
+    <name>Emeldir</name>
+    <sex>f</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="beren_i"/>
+        <relation type="spouse" id="barahir"/>
+        <relation type="child" id="beren_erchamion"/>
+    </relations>
+</character>

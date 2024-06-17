@@ -1,0 +1,14 @@
+ <character id="huor">
+    <name>Huor</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" id="galador"/>
+        <relation type="mother" id="hareth"/>
+        <relation type="spouse" id="rian"/>
+        <relation type="child" id="tuor"/>
+    </relations>
+</character>

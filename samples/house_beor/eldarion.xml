@@ -1,0 +1,12 @@
+ <character id="eldarion">
+    <name>Eldarion</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="arwen" id="aragorn_ii_elessar"/>
+        <relation type="mother" with="aragorn_ii_elessar" id="arwen"/>
+    </relations>
+</character>

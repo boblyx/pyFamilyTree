@@ -1,0 +1,12 @@
+ <character id="urwen">
+    <name>Urwen</name>
+    <sex>f</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="morwen" id="hurin"/>
+        <relation type="mother" with="hurin" id="morwen"/>
+    </relations>
+</character>

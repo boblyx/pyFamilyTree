@@ -1,0 +1,12 @@
+ <character id="belen">
+    <name>Belen</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="beor_the_old"/>
+        <relation type="descendants" id="beldir"/>
+    </relations>
+</character>

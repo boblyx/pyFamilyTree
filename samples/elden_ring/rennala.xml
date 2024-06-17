@@ -5,6 +5,7 @@
     <suffix>Queen of the Full Moon</suffix>
     <titles>
         <title>Headmistress of Raya Lucaria</title>
+        <title>Queen of Caria</title>
     </titles>
     <relations>
         <relation type="spouse" id="radagon"/>

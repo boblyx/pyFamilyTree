@@ -1,0 +1,11 @@
+ <character id="malenia">
+    <name>Malenia</name>
+    <sex>f</sex>
+    <suffix>Blade of Miquella</suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="marika" id="radagon"/>
+        <relation type="mother" with="radagon" id="marika"/>
+    </relations>
+</character>

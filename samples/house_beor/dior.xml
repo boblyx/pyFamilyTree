@@ -1,0 +1,16 @@
+ <character id="dior">
+    <name>Dior</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="luthien" id="beren_erchamion"/>
+        <relation type="mother" with="beren_erchamion" id="luthien"/>
+        <relation type="spouse" id="nimloth"/>
+        <relation type="child" id="elured"/>
+        <relation type="child" id="elurin"/>
+        <relation type="child" id="elwing"/>
+    </relations>
+</character>

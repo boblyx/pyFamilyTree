@@ -1,0 +1,13 @@
+ <character id="elendil">
+    <name>Elendil</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="kings_of_numenor"/>
+        <relation type="descendants" id="isildur"/>
+        <relation type="descendants" id="anarion"/>
+    </relations>
+</character>

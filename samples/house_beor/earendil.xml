@@ -1,0 +1,15 @@
+ <character id="earendil">
+    <name>Earendil</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="idril" id="tuor"/>
+        <relation type="mother" with="tuor" id="idril"/>
+        <relation type="spouse" id="elwing"/>
+        <relation type="child" id="elrond"/>
+        <relation type="child" id="elros"/>
+    </relations>
+</character>

@@ -1,0 +1,13 @@
+ <character id="elros">
+    <name>Elros</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="elwing" id="earendil"/>
+        <relation type="mother" with="earendil" id="elwing"/>
+        <relation type="descendants" id="kings_of_numenor"/>
+    </relations>
+</character>

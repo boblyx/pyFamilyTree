@@ -1,0 +1,12 @@
+ <character id="boron">
+    <name>Boron</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="baran"/>
+        <relation type="descendants" id="boromir"/>
+    </relations>
+</character>

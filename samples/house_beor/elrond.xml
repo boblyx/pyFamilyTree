@@ -1,0 +1,16 @@
+ <character id="elrond">
+    <name>Elrond</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="spouse" id="celebrian"/>
+        <relation type="father" with="elwing" id="earendil"/>
+        <relation type="mother" with="earendil" id="elwing"/>
+        <relation type="child" id="arwen"/>
+        <relation type="child" id="elladan"/>
+        <relation type="child" id="elrohir"/>
+    </relations>
+</character>

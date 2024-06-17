@@ -1,0 +1,15 @@
+ <character id="nimloth">
+    <name>Nimloth</name>
+    <sex>f</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="galathil"/>
+        <relation type="spouse" id="dior"/>
+        <relation type="child" id="elured"/>
+        <relation type="child" id="elurin"/>
+        <relation type="child" id="elwing"/>
+    </relations>
+</character>
