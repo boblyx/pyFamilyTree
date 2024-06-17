@@ -1,0 +1,10 @@
+<character id="ranni">
+    <name>Ranni</name>
+    <sex>f</sex>
+    <suffix>the Witch</suffix>
+    <titles></titles>
+    <relations>
+        <relation type="father" with="rennala" id="radagon"/>
+        <relation type="mother" with="radagon" id="rennala"/>
+    </relations>
+</character>

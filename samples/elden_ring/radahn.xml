@@ -1,0 +1,13 @@
+<character id="radahn">
+    <name>Radahn</name>
+    <sex>m</sex>
+    <suffix>Conqueror of the Stars</suffix>
+    <titles>
+        <title>General</title>
+        <title>Starscourge</title>
+    </titles>
+    <relations>
+        <relation type="father" with="rennala" id="radagon"/>
+        <relation type="mother" with="radagon" id="rennala"/>
+    </relations>
+</character>

@@ -1,0 +1,10 @@
+<character id="godefroy">
+    <name>Godefroy</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix>the Grafted</suffix>
+    <titles></titles>
+    <relations>
+        <relation type="ancestor" id="golden_lineage"/>
+    </relations>
+</character>

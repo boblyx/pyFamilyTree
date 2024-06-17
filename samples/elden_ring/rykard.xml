@@ -1,0 +1,12 @@
+<character id="rykard">
+    <name>Rykard</name>
+    <sex>m</sex>
+    <suffix>the Blasphemous</suffix>
+    <titles>
+        <title>Praetor</title>
+    </titles>
+    <relations>
+        <relation type="father" with="rennala" id="radagon"/>
+        <relation type="mother" with="radagon" id="rennala"/>
+    </relations>
+</character>

@@ -1,0 +1,11 @@
+<character id="godrick">
+    <name>Godrick</name>
+    <sex>m</sex>
+    <suffix>the Grafted</suffix>
+    <titles>
+        <title>Lord of Stormveil Castle</title>
+    </titles>
+    <relations>
+        <relation type="ancestor" id="golden_lineage"/>
+    </relations>
+</character>

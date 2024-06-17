@@ -1,0 +1,17 @@
+<character id="godfrey">
+    <name>Godfrey</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+        <title>First Elden Lord</title>
+    </titles>
+    <alter_ego id="hoarah_loux"/>
+    <relations>
+        <relation type="regent" id="serosh"/>
+        <relation type="child" with="marika" id="godwyn" order="0"/>
+        <relation type="child" with="marika" id="morgott" order="1"/>
+        <relation type="child" with="marika" id="mohg" order="2"/>
+        <relation type="descendants" with="marika" id="golden_lineage"/>
+    </relations>
+</character>

@@ -1,0 +1,12 @@
+<character id="godwyn">
+    <name>Godwyn</name>
+    <sex>m</sex>
+    <prefix></prefix>
+    <suffix>the Golden</suffix>
+    <titles></titles>
+    <relations>
+        <relation type="father" with="marika" id="godfrey"/>
+        <relation type="mother" with="godfrey" id="marika"/>
+        <relation type="friend" id="fortissax"/>
+    </relations>
+</character>

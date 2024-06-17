@@ -1,0 +1,12 @@
+<character id="rennala">
+    <name>Rennala</name>
+    <sex>f</sex>
+    <prefix></prefix>
+    <suffix>Queen of the Full Moon</suffix>
+    <titles>
+        <title>Headmistress of Raya Lucaria</title>
+    </titles>
+    <relations>
+        <relation type="spouse" id="radagon"/>
+    </relations>
+</character>

@@ -1,0 +1,18 @@
+<character id="marika">
+    <name>Marika</name>
+    <sex>f</sex>
+    <suffix>the Eternal</suffix>
+    <titles>
+        <title>Queen</title>
+    </titles>
+    <alter_ego id="radagon"/>
+    <relations>
+        <relation type="shadow" id="maliketh"/>
+        <relation type="child" with="shadow_consort" id="mesmer" order="0"/>
+        <relation type="child" with="godfrey" id="godwyn" order="1"/>
+        <relation type="child" with="godfrey" id="morgott" order="2"/>
+        <relation type="child" with="godfrey" id="mohg" order="3"/>
+        <relation type="child" with="radagon" id="malenia" order="4"/>
+        <relation type="child" with="radagon" id="miquella" order="4"/>
+    </relations>
+</character>

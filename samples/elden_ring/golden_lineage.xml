@@ -1,0 +1,14 @@
+<character id="golden_lineage">
+    <name>Golden Lineage</name>
+    <sex>n</sex>
+    <prefix></prefix>
+    <suffix></suffix>
+    <titles>
+    </titles>
+    <relations>
+        <relation type="father" with="marika" id="godfrey"/>
+        <relation type="mother" with="godfrey" id="marika"/>
+        <relation type="descendant" id="godefroy"/>
+        <relation type="descendant" id="godrick"/>
+    </relations>
+</character>
